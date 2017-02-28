@@ -1,1 +1,10 @@
 H:\HOTEL_SUSAN\HOTEL_SUSAN\HOTEL_SUSAN\bin\Debug\HOTEL_SUSAN.exe.config
+C:\Users\Alumno\Downloads\HOTEL_SUSAN-master\HOTEL_SUSAN\HOTEL_SUSAN\bin\Debug\HOTEL_SUSAN.exe.config
+C:\Users\Alumno\Downloads\HOTEL_SUSAN-master\HOTEL_SUSAN\HOTEL_SUSAN\obj\Debug\HOTEL_SUSAN.csprojResolveAssemblyReference.cache
+C:\Users\Alumno\Downloads\HOTEL_SUSAN-master\HOTEL_SUSAN\HOTEL_SUSAN\obj\Debug\HOTEL_SUSAN.frmHabitacion_Alquiler.resources
+C:\Users\Alumno\Downloads\HOTEL_SUSAN-master\HOTEL_SUSAN\HOTEL_SUSAN\obj\Debug\HOTEL_SUSAN.Properties.Resources.resources
+C:\Users\Alumno\Downloads\HOTEL_SUSAN-master\HOTEL_SUSAN\HOTEL_SUSAN\obj\Debug\HOTEL_SUSAN.csproj.GenerateResource.Cache
+C:\Users\Alumno\Downloads\HOTEL_SUSAN-master\HOTEL_SUSAN\HOTEL_SUSAN\bin\Debug\HOTEL_SUSAN.exe
+C:\Users\Alumno\Downloads\HOTEL_SUSAN-master\HOTEL_SUSAN\HOTEL_SUSAN\bin\Debug\HOTEL_SUSAN.pdb
+C:\Users\Alumno\Downloads\HOTEL_SUSAN-master\HOTEL_SUSAN\HOTEL_SUSAN\obj\Debug\HOTEL_SUSAN.exe
+C:\Users\Alumno\Downloads\HOTEL_SUSAN-master\HOTEL_SUSAN\HOTEL_SUSAN\obj\Debug\HOTEL_SUSAN.pdb
