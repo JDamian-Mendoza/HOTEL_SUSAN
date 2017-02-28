@@ -44,6 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsAlquiler.cs" />
+    <Compile Include="clsDetalleAlquiler.cs" />
+    <Compile Include="clsEmpleado.cs" />
+    <Compile Include="clsHabitacion.cs" />
+    <Compile Include="clsHuesped.cs" />
+    <Compile Include="clsReserva.cs" />
+    <Compile Include="clsRuc.cs" />
+    <Compile Include="clsTipoHabitacion.cs" />
     <Compile Include="frmHabitacion_Alquiler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +72,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Diagrama Hotel.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

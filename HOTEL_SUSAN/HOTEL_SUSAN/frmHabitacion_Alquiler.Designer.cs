@@ -55,6 +55,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label16 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -64,16 +68,15 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.label17 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -125,20 +128,20 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(428, 108);
+            this.button3.Location = new System.Drawing.Point(428, 147);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 37);
+            this.button3.Size = new System.Drawing.Size(103, 89);
             this.button3.TabIndex = 23;
-            this.button3.Text = "Actualizar";
+            this.button3.Text = "Actualizar\r\nCliente";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(428, 57);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 33);
+            this.button2.Size = new System.Drawing.Size(103, 74);
             this.button2.TabIndex = 22;
-            this.button2.Text = "Guardar";
+            this.button2.Text = "Guardar\r\nCliente\r\n";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // textBox8
@@ -358,6 +361,40 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Alquiler de Habitacion";
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(6, 217);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(94, 18);
+            this.label17.TabIndex = 31;
+            this.label17.Text = "Hora Ingreso";
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker3.Location = new System.Drawing.Point(187, 182);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(113, 24);
+            this.dateTimePicker3.TabIndex = 24;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker2.Location = new System.Drawing.Point(187, 212);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(120, 24);
+            this.dateTimePicker2.TabIndex = 30;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(6, 187);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(102, 18);
+            this.label16.TabIndex = 29;
+            this.label16.Text = "Fecha Ingreso";
+            // 
             // textBox11
             // 
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -434,40 +471,6 @@
             this.button1.Text = "Busqueda Habitacion";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 187);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(102, 18);
-            this.label16.TabIndex = 29;
-            this.label16.Text = "Fecha Ingreso";
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(187, 212);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(120, 24);
-            this.dateTimePicker2.TabIndex = 30;
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker3.Location = new System.Drawing.Point(187, 182);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(113, 24);
-            this.dateTimePicker3.TabIndex = 24;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(6, 217);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(94, 18);
-            this.label17.TabIndex = 31;
-            this.label17.Text = "Hora Ingreso";
-            // 
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -475,10 +478,11 @@
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4,
-            this.columnHeader5});
+            this.columnHeader5,
+            this.columnHeader6});
             this.listView1.Location = new System.Drawing.Point(12, 403);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(630, 243);
+            this.listView1.Size = new System.Drawing.Size(967, 243);
             this.listView1.TabIndex = 3;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -492,31 +496,57 @@
             // 
             this.columnHeader2.Text = "N°. Doc. Identidad";
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 113;
+            this.columnHeader2.Width = 146;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Nombre";
             this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 110;
+            this.columnHeader3.Width = 227;
             // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "Apellido Paterno";
             this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 129;
+            this.columnHeader4.Width = 192;
             // 
             // columnHeader5
             // 
             this.columnHeader5.Text = "Apellido Materno";
             this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 124;
+            this.columnHeader5.Width = 189;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "N° RUC";
+            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader6.Width = 161;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(743, 330);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(103, 54);
+            this.button4.TabIndex = 24;
+            this.button4.Text = "Guardar\r\nAlquiler";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(876, 330);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(103, 54);
+            this.button5.TabIndex = 25;
+            this.button5.Text = "Cancelar \r\nAlquiler";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // frmHabitacion_Alquiler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(997, 740);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -582,5 +612,8 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
